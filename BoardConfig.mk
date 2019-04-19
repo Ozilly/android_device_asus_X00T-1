@@ -245,6 +245,7 @@ PLATFORM_SECURITY_PATCH := 2019-08-05
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := libinit_X00T
