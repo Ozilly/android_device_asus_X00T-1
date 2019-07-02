@@ -136,6 +136,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
 
+# Dirac
+PRODUCT_PACKAGES += \
+    Dirac
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -469,5 +473,9 @@ PRODUCT_PACKAGES += \
     Gboard \
     Messaging \
     sqlite3
+
+# Zenfone Parts
+PRODUCT_PACKAGES += \
+    ZenfoneParts
 
 $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
