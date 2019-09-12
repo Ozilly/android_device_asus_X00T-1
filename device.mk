@@ -465,6 +465,7 @@ PRODUCT_COPY_FILES += \
 # Prebuilts
 PRODUCT_PACKAGES += \
     Gboard \
-    Messaging
+    Messaging \
+    sqlite3
 
 $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
