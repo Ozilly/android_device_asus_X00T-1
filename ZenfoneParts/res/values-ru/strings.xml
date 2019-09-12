@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Asus-SDM660 Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="advanced_settings">Настройки Zenfone</string>
+    <string name="advanced_settings_summary">Индивидуальные настройки устройства</string>
+
+    <string name="display_title">Экран</string>
+
+    <string name="torch_title">Фонарик</string>
+    <string name="torch_brightness_title">Яркость</string>
+    <string name="vibration_title">Вибрация</string>
+    <string name="vibration_strength_title">Мощность</string>
+
+    <string name="audio_title">Аудио</string>
+
+    <!-- Audio amplification -->
+    <string name="headphone_gain">Усиление наушников</string>
+    <string name="microphone_gain">Усиление микрофона</string>
+
+    <!-- CustomSeekBarPreference -->
+    <string name="edit_value">Выберите новое значение</string>
+    <string name="default_value">Значение по умолчанию</string>
+    <string name="edit_hint">Значение между %1$d и %2$d</string>
+
+    <!-- KCal -->
+    <string name="kcal_title">Калибровка экрана</string>
+    <string name="kcal_summary">Калибровка цветов экрана с использованием KCAL</string>
+    <string name="kcal_enabled_title">Включить KCAL</string>
+    <string name="kcal_enabled_summary">Включить калибровку экрана с использованием KCAL</string>
+    <string name="kcal_red">Красный</string>
+    <string name="kcal_green">Зеленый</string>
+    <string name="kcal_blue">Синий</string>
+    <string name="kcal_saturation">Насыщенность</string>
+    <string name="kcal_contrast">Контраст</string>
+    <string name="kcal_hue">Оттенок</string>
+    <string name="kcal_value">Значение</string>
+    <string name="menu_reset">Сброс</string>
+    <string name="kcal_color_temp">Температура экрана (K)</string>
+    <string name="kcal_greyscale_title">Оттенки серого</string>
+    <string name="kcal_greyscale_summary">Полностью отключить насыщенность</string>
+    <string name="presets_list_title">Предустановки KCAL</string>
+    <string name="default_values">По умолчанию</string>
+    <string name="version_1">Version 1</string>
+    <string name="version_2">Version 2</string>
+    <string name="version_3">Version 3</string>
+    <string name="triluminous">Triluminous</string>
+    <string name="deep_black_and_white">Deep Black and White</string>
+    <string name="deep_natural">Deep Natural</string>
+    <string name="cool_amoled">Cool Amoled</string>
+    <string name="extreme_amoled">Extreme Amoled</string>
+    <string name="warm_amoled">Warm Amoled</string>
+    <string name="hybrid_mamba">Hybrid Mamba</string>
+
+    <!-- Zenmotions -->
+    <string name="dlg_ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="reset">Сброс</string>
+    <string name="reset_message">Сбросить все записи по умолчанию?</string>
+
+    <string name="category_gesture">Жесты</string>
+    <string name="screen_off_gesture_title">Zenmotions</string>
+    <string name="group_applications">Приложения</string>
+    <string name="select_custom_app_title">Выберите пользовательское приложение</string>
+    <string name="gestures_dashboard_summary">Жесты на выключенном экране</string>
+    <string name="enable_gestures_title">Активировать жесты</string>
+    <string name="enable_gestures_summary">Активировать жесты на выключенном экране</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="zenmotions">Zenmotions</string>
+    <string name="zenmotions_summary">Жесты на выключенном экране</string>
+    <string name="gestures">Жесты</string>
+    <string name="screen_off_gestures">Жесты на выключенном экране</string>
+    <string name="gesture_z_title">Жест Z</string>	
+    <string name="gesture_s_title">Жест S</string>
+    <string name="gesture_v_title">Жест V</string>
+    <string name="gesture_w_title">Жест W</string>
+    <string name="gesture_c_title">Жест C</string>
+    <string name="gesture_e_title">Жест e</string>
+    <string name="gesture_up_title">Жест Провести вверх</string>
+    <string name="screen_gestures_panel_title">Жесты</string>
+    <string name="proxi_summary_head">Проверьте датчик приближения на наличие жестов и отпечатков пальцев</string>
+    <string name="proxi_title_head">Проверка датчика приближения</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">Активный экран</string>
+    <string name="ambient_display_enable_title">>Активный экран</string>
+    <string name="ambient_display_enable_summary">Пробуждение экрана при получении уведомлений</string>
+    <string name="ambient_display_gestures_title">Жесты активного экрана</string>
+    <string name="ambient_display_gestures_summary">Дополнительные жесты, чтобы разбудить экран</string>
+    <string name="ambient_display_summary">Пробуждение экрана при получении уведомлений</string>
+    <string name="ambient_display_summary_on">Экран будет просыпаться при получении уведомлений</string>
+    <string name="ambient_display_summary_off">Экран не будет просыпаться при получении уведомлений</string>
+
+    <!-- Tilt sensor -->
+    <string name="tilt_sensor_title">Датчик наклона</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Датчик срабатывания</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Датчик приближения</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Провести рукой</string>
+    <string name="hand_wave_gesture_summary">Pulse уведомления если провести рукой</string>
+    <string name="hand_wave_gesture_flat_title">Определить ориентацию</string>
+    <string name="hand_wave_gesture_flat_summary">Показывать уведомления если телефон лежит на ровной поверхности</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Поднятие</string>
+    <string name="pick_up_gesture_summary">Pulse уведомления при поднятии</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Карман</string>
+    <string name="pocket_gesture_summary">Pulse уведомления если достать из кармана</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Пробуждать при приближении</string>
+    <string name="proximity_wake_enable_title">Пробуждать при приближении</string>
+    <string name="proximity_wake_enable_summary">Пробудить при проведении рукой</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Вкл</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Выкл</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Дополнительный настройки</string>
+
+    <!-- Touchscreen gesture haptic feedback -->
+    <string name="touchscreen_gesture_extras">Дополнительно</string>
+    <string name="touchscreen_gesture_haptic_feedback">Вибрация</string>
+    <string name="touchscreen_gesture_haptic_feedback_summary">Вибрировать при обнаружении жестов на активном экране</string>
+
+</resources>

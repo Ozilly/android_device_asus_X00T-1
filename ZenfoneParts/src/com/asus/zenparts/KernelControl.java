@@ -31,7 +31,16 @@ import java.io.File;
 
 public final class KernelControl {
 
-    private static String GESTURE_PATH = "/sys/kernel/touchpanel/dclicknode";
+    private static final String[] GesturePaths = new String[] {
+        "/proc/touchpanel/up_swipe_enable",
+        "/proc/touchpanel/letter_c_enable",
+        "/proc/touchpanel/letter_v_enable",
+        "/proc/touchpanel/letter_s_enable",
+        "/proc/touchpanel/letter_z_enable",
+        "/proc/touchpanel/letter_w_enable",
+        "/proc/touchpanel/letter_e_enable"
+    };
+    
     public static final String SLIDER_SWAP_NODE = "/proc/s1302/key_rep";
 
     private KernelControl() {
@@ -41,18 +50,16 @@ public final class KernelControl {
     /**
      * Enable or disable gesture control.
      */
-    public static void enableGestures(boolean enable) {
-            if (new File(GESTURE_PATH).exists()) {
-                FileUtils.writeLine(GESTURE_PATH, enable ? "1" : "0");
-            }
+    
+    public static void enableGesture(int id, boolean state) {
+        if (new File(GesturePaths[id]).exists()) {
+            FileUtils.writeLine(GesturePaths[id], state ? "1" : "0");
+        }
     }
 
     /**
      * Do we have touch control at all?
      */
-    public static boolean hasTouchscreenGestures() {
-        return new File(GESTURE_PATH).exists();
-    }
 
     public static boolean hasSlider() {
         return new File(SLIDER_SWAP_NODE).exists();
