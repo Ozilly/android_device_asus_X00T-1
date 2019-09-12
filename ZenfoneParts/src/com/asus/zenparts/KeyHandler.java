@@ -68,10 +68,6 @@ public class KeyHandler implements AlternativeDeviceKeyHandler {
     private static final int GESTURE_W_SCANCODE = 253;
     private static final int GESTURE_Z_SCANCODE = 254;
     private static final int GESTURE_SWIPE_UP = 255;
-    private static final int GESTURE_SWIPE_DOWN = 256;
-    private static final int GESTURE_SWIPE_LEFT = 257;
-    private static final int GESTURE_SWIPE_RIGHT = 258;
-    private static final int GESTURE_DOUBLE_TAP = 260;
 
     // Slider
      private static final int KEYCODE_SLIDER_TOP = 601;
@@ -86,10 +82,6 @@ public class KeyHandler implements AlternativeDeviceKeyHandler {
         GESTURE_S_SCANCODE,
         GESTURE_Z_SCANCODE,
 	GESTURE_SWIPE_UP,
-	GESTURE_SWIPE_DOWN,
-	GESTURE_SWIPE_LEFT,
-	GESTURE_SWIPE_RIGHT,
-        GESTURE_DOUBLE_TAP,
         KEYCODE_SLIDER_TOP,
         KEYCODE_SLIDER_MIDDLE,
         KEYCODE_SLIDER_BOTTOM
@@ -104,10 +96,6 @@ public class KeyHandler implements AlternativeDeviceKeyHandler {
         GESTURE_S_SCANCODE,
         GESTURE_Z_SCANCODE,
 	GESTURE_SWIPE_UP,
-	GESTURE_SWIPE_DOWN,
-	GESTURE_SWIPE_LEFT,
-	GESTURE_SWIPE_RIGHT,
-        GESTURE_DOUBLE_TAP,
         KEY_DOUBLE_TAP
      };
 
@@ -195,68 +183,44 @@ public class KeyHandler implements AlternativeDeviceKeyHandler {
             switch(event.getScanCode()) {
             case GESTURE_C_SCANCODE:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_C,
+                        .getString(ScreenOffGesture.PREF_GESTURES[1],
                         ActionConstants.ACTION_NULL);
                         doHapticFeedback();
                 break;
             case GESTURE_E_SCANCODE:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_E,
+                        .getString(ScreenOffGesture.PREF_GESTURES[6],
                         ActionConstants.ACTION_NULL);
                         doHapticFeedback();
                 break;
             case GESTURE_V_SCANCODE:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_V,
+                        .getString(ScreenOffGesture.PREF_GESTURES[2],
                         ActionConstants.ACTION_NULL);
                         doHapticFeedback();
                 break;
             case GESTURE_W_SCANCODE:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_W,
+                        .getString(ScreenOffGesture.PREF_GESTURES[5],
                         ActionConstants.ACTION_NULL);
                         doHapticFeedback();
                 break;
             case GESTURE_S_SCANCODE:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_S,
+                        .getString(ScreenOffGesture.PREF_GESTURES[3],
                         ActionConstants.ACTION_NULL);
                         doHapticFeedback();
                 break;
             case GESTURE_Z_SCANCODE:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_Z,
+                        .getString(ScreenOffGesture.PREF_GESTURES[4],
                         ActionConstants.ACTION_NULL);
                         doHapticFeedback();
                 break;
 			case GESTURE_SWIPE_UP:
                 action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_UP,
-                        ActionConstants.ACTION_WAKE_DEVICE);
-                        doHapticFeedback();
-                break;
-            case GESTURE_SWIPE_DOWN:
-                action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_DOWN,
+                        .getString(ScreenOffGesture.PREF_GESTURES[0],
                         ActionConstants.ACTION_NULL);
-                        doHapticFeedback();
-                break;
-            case GESTURE_SWIPE_LEFT:
-                action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_LEFT,
-                        ActionConstants.ACTION_NULL);
-                        doHapticFeedback();
-                break;
-            case GESTURE_SWIPE_RIGHT:
-                action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_RIGHT,
-                        ActionConstants.ACTION_NULL);
-                        doHapticFeedback();
-                break;
-            case GESTURE_DOUBLE_TAP:
-                action = getGestureSharedPreferences()
-                        .getString(ScreenOffGesture.PREF_GESTURE_DOUBLE_TAP,
-                        ActionConstants.ACTION_WAKE_DEVICE);
                         doHapticFeedback();
                 break;
     }

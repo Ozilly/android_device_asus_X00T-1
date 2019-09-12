@@ -64,9 +64,9 @@ public class Startup extends BroadcastReceiver {
                 enableComponent(context, ScreenOffGesture.class.getName());
                 SharedPreferences screenOffGestureSharedPreferences = context.getSharedPreferences(
                         ScreenOffGesture.GESTURE_SETTINGS, Activity.MODE_PRIVATE);
-                KernelControl.enableGestures(
-                        screenOffGestureSharedPreferences.getBoolean(
-                        ScreenOffGesture.PREF_GESTURE_ENABLE, true));
+                boolean enableGestures = screenOffGestureSharedPreferences.getBoolean(
+                        ScreenOffGesture.PREF_GESTURE_ENABLE, true);
+                ScreenOffGesture.checkGestureState(enableGestures);
          }
 	context.startService(new Intent(context, SensorsDozeService.class));
     }
