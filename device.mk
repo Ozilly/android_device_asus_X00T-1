@@ -334,6 +334,7 @@ PRODUCT_PACKAGES += \
     move_time_data.sh \
     move_wifi_data.sh \
     fix_baseband.sh \
+    hack_attest.sh \
     fstab.qcom \
     init.msm.usb.configfs.rc \
     init.qcom.rc \
