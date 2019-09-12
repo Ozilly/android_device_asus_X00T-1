@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2019 Havoc-OS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string-array name="type_clock_hours">
+        <item>Двенадцать Часов</item>
+        <item>Один Час</item>
+        <item>Два Часа</item>
+        <item>Три Часа</item>
+        <item>Четыре Часа</item>
+        <item>Пять Часов</item>
+        <item>Шесть Часов</item>
+        <item>Семь Часов</item>
+        <item>Восемь Часов</item>
+        <item>Девять Часов</item>
+        <item>Десять Часов</item>
+        <item>Одиннадцать Часов</item>
+    </string-array>
+    <string-array name="type_clock_minutes">
+        <item>Ноль Минут</item>
+        <item>Одна Минута</item>
+        <item>Две Минуты</item>
+        <item>Три Минуты</item>
+        <item>Четыре Минуты</item>
+        <item>Пять Минут</item>
+        <item>Шесть Минут</item>
+        <item>Семь Минут</item>
+        <item>Восемь Минут</item>
+        <item>Девять Минут</item>
+        <item>Десять Минут</item>
+        <item>Одиннадцать Минут</item>
+        <item>Двенадцать Минут</item>
+        <item>Тринадцать Минут</item>
+        <item>Четырнадцать Минут</item>
+        <item>Пятнадцать Минут</item>
+        <item>Шестнадцать Минут</item>
+        <item>Семьнадцать Минут</item>
+        <item>Восемьнадцать Минут</item>
+        <item>Девятнадцать Минут</item>
+        <item>Двадцать Минут</item>
+        <item>"Двадцать
+Одна Минута"</item>
+        <item>"Двадцать
+Две Минуты"</item>
+        <item>"Двадцать
+Три Минуты"</item>
+        <item>"Двадцать
+Четыре Минуты"</item>
+        <item>"Двадцать
+Пять Минут"</item>
+        <item>"Двадцать
+Шесть Минут"</item>
+        <item>"Двадцать
+Семь Минут"</item>
+        <item>"Двадцать
+Восемь Минут"</item>
+        <item>"Двадцать
+Девять Минут"</item>
+        <item>Тридцать Минут</item>
+		<item>"Тридцать
+Одна Минута"</item>
+        <item>"Тридцать
+Две Минуты"</item>
+        <item>"Тридцать
+Три Минуты"</item>
+        <item>"Тридцать
+Четыре Минуты"</item>
+        <item>"Тридцать
+Пять Минут"</item>
+        <item>"Тридцать
+Шесть Минут"</item>
+        <item>"Тридцать
+Семь Минут"</item>
+        <item>"Тридцать
+Восемь Минут"</item>
+        <item>"Тридцать
+Девять Минут"</item>
+        <item>Сорок Минут</item>
+		<item>"Сорок
+Одна Минута"</item>
+        <item>"Сорок
+Две Минуты"</item>
+        <item>"Сорок
+Три Минуты"</item>
+        <item>"Сорок
+Четыре Минуты"</item>
+        <item>"Сорок
+Пять Минут"</item>
+        <item>"Сорок
+Шесть Минут"</item>
+        <item>"Сорок
+Семь Минут"</item>
+        <item>"Сорок
+Восемь Минут"</item>
+        <item>"Сорок
+Девять Минут"</item>
+        <item>Пятьдесят Минут</item>
+		<item>"Пятьдесят
+Одна Минута"</item>
+        <item>"Пятьдесят
+Две Минуты"</item>
+        <item>"Пятьдесят
+Три Минуты"</item>
+        <item>"Пятьдесят
+Четыре Минуты"</item>
+        <item>"Пятьдесят
+Пять Минут"</item>
+        <item>"Пятьдесят
+Шесть Минут"</item>
+        <item>"Пятьдесят
+Семь Минут"</item>
+        <item>"Пятьдесят
+Восемь Минут"</item>
+        <item>"Пятьдесят
+Девять Минут"</item>
+    </string-array>
+</resources>
