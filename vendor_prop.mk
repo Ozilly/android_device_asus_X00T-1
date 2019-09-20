@@ -96,6 +96,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.fuse_sdcard=true
 
+# GMS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase.ms=android-asus-tpin \
+    ro.com.google.rlzbrandcode=ASUP \
+    ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
