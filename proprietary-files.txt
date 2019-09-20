@@ -967,10 +967,10 @@ vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.factory@1.0-impl.so
 
 # Fingerprint sensor
-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
 -vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/bin/qfp-daemon
-vendor/etc/permissions/qti_fingerprint_interface.xml|e725f93f2dbc377b9143a0322470a4a95dce2fa0
+vendor/etc/permissions/qti_fingerprint_interface.xml
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/cdfinger.default.so
 vendor/lib64/hw/cdfinger.fingerprint.default.so
@@ -1296,18 +1296,18 @@ vendor/lib64/libquipc_os_api.so
 
 # Radio
 -app/CallFeaturesSetting/CallFeaturesSetting.apk
--app/datastatusnotification/datastatusnotification.apk:vendor/app/datastatusnotification/datastatusnotification.apk
--app/embms/embms.apk:vendor/app/embms/embms.apk
-etc/permissions/embms.xml:vendor/etc/permissions/embms.xml|a2137c642ce17e9796872ddb8390162d1324c6c9
-framework/embmslibrary.jar:vendor/framework/embmslibrary.jar
--app/QtiTelephonyService/QtiTelephonyService.apk:vendor/app/QtiTelephonyService/QtiTelephonyService.apk
+-app/datastatusnotification/datastatusnotification.apk
+-app/embms/embms.apk
+etc/permissions/embms.xml
+framework/embmslibrary.jar
+-app/QtiTelephonyService/QtiTelephonyService.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/lib/libqmiservices.so
 -vendor/lib64/libqmiservices.so
-etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml|cf740b4339659e7a30cabcd1c2fe5066e69b8760
-etc/permissions/telephonyservice.xml:vendor/etc/permissions/telephonyservice.xml|ff2c9f3456ad73f97adb7ef314fe916fa9cbfb81
-framework/QtiTelephonyServicelibrary.jar:vendor/framework/QtiTelephonyServicelibrary.jar
-framework/qcrilhook.jar:vendor/framework/qcrilhook.jar
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+framework/QtiTelephonyServicelibrary.jar
+framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild
