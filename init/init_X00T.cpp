@@ -135,22 +135,7 @@ void vendor_check_variant()
     property_set("ro.config.versatility", region);
 }
 
-void userdebug_mask()
-{
-    std::string build_type;
-
-    build_type = GetProperty("ro.build.type", "");
-
-    if (build_type == "userdebug")
-    {
-        property_override_dual("ro.build.type", "ro.vendor.build.type", "user");
-        property_override_dual("ro.build.tags", "ro.vendor.build.tags", "release-keys");
-        property_override("ro.debuggable", "0");
-    }
-}
-
 void vendor_load_properties()
 {
     vendor_check_variant();
-    userdebug_mask();
 }
