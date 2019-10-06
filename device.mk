@@ -142,6 +142,11 @@ PRODUCT_PACKAGES += \
 # Dirac
 PRODUCT_PACKAGES += \
     Dirac
+    
+# Charger
+PRODUCT_PACKAGES += \
+    asus_charger \
+    asus_charger_res_images
 
 # Display
 PRODUCT_PACKAGES += \
