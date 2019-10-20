@@ -241,8 +241,8 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 # Security patch level
 # After June Google register fingerprints with security patch version.
 # Asus Pie 055 fingerprint registered on this patch version
-VENDOR_SECURITY_PATCH := 2019-08-05
-PLATFORM_SECURITY_PATCH := 2019-08-05
+VENDOR_SECURITY_PATCH := 2019-10-05
+PLATFORM_SECURITY_PATCH := 2019-10-05
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
