@@ -928,7 +928,7 @@ service qti-testscripts /system/bin/sh /system/etc/init.qcom.testscripts.sh
 
 service fix_baseband /vendor/bin/fix_baseband.sh
     class late_start
-    user system
+    user root
     group shell
     oneshot
     disabled
