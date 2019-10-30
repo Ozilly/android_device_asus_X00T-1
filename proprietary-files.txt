@@ -53,7 +53,7 @@ lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
 # Audio
 vendor/bin/audioflacapp
 vendor/firmware/tfa98xx.cnt
-vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib/hw/audio.primary.sdm660.so|8f442f3181307b492b370143914e9c1ae107f786
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -70,7 +70,7 @@ vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
-vendor/lib64/hw/audio.primary.sdm660.so
+vendor/lib64/hw/audio.primary.sdm660.so|20f89860922bf1edbca50a54eb341c95fdd91e96
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
