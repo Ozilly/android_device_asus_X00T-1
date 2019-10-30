@@ -1,8 +1,8 @@
-# Device Tree for ASUS ZB601 & ZB602KL (X00T)
+# Device Tree for ASUS ZB601KL & ZB602KL (X00T)
 
 ## Device specifications
 
-| Basic            | Specs 1                                   | Specs 2                                |
+| Basic            | Specs                                     | More info                              |
 |:---------------- |:----------------------------------------- |:-------------------------------------- |
 | SoC              | QCOM SDM636                               | QRD                                    |
 | Memory           | 3/4/6 GB RAM                              | LPDDR4X 1333 MHz                       |
@@ -10,8 +10,8 @@
 | Storage          | 32/64 GB                                  | EMMC                                   |
 | MicroSD          | Up to 512 GB (dedicated)                  | microSD, microSDHC, microSDXC          |
 | Battery          | Non-removable Li-Po 5000 mAh              | Coslight QL1626cos                     |
-| Dimensions       | 159 x 76 x 8.5 mm                         |                                        |
-| Display          | IPS, 2160 x 1080 (18:9), 5.99"            | AUO FT8716f / NT36672 TXD / TD4310 TXD |
+| Dimensions       | 159 x 76 x 8.5 mm                         | -                                      |
+| Display          | IPS, 2160 x 1080 (18:9), 5.99"            | NT36672 TXD / TD4310 TXD               |
 | Rear camera 1    | 13 MP f/2.2 (3/4 GB) / 16 MP f/2.0 (6 GB) | OV13855 / HI1333 / OV16885             |
 | Rear camera 2    | 5 MP, f/2.4                               | HI556 / GC5025                         |
 | Front camera     | 8 MP (3/4 GB) / 16 MP (6 GB), f/2.2,      | OV8856 / HI846 / OV16880               |
@@ -19,8 +19,8 @@
 | FingerPrint      | Yes                                       | Goodix / CDFinger                      |
 | Accelerometer    | Yes                                       | BMI160                                 |
 | Magnetometer     | Yes                                       | AK09918                                |
-| ALS/PS           | Yes                                       | STK3X1X                                |
-| Notification LED | Yes                                       | Red and Green led (model ?)            |
+| ALS/PS           | Yes                                       | STK3310                                |
+| Notification LED | Yes                                       | PMIC LED                               |
 | Power driver     | QPNP FG Gen3 & SMB2                       | With ASUS JEITA Feature                |
 | SAR Sensor       | Yes                                       | SX9310                                 |
 | Audio codec      | Yes                                       | NXP TFA98XX                            |
