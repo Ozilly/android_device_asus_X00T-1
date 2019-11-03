@@ -146,6 +146,7 @@ void userdebug_mask()
         property_override_dual("ro.build.type", "ro.vendor.build.type", "user");
         property_override_dual("ro.build.tags", "ro.vendor.build.tags", "release-keys");
         property_override("ro.debuggable", "0");
+        property_override("ro.boot.flash.locked", "1");
     }
 }
 
